@@ -55,6 +55,7 @@ li a:hover{
 }
 .fa-caret-down{
   color: white;
+  margin-left: -25px;
 }
 .logo b{
   color:white;
