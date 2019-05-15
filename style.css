@@ -1,0 +1,57 @@
+ul{
+  border-radius: 4px;
+  background: #b7b3b3;
+  overflow: auto;
+  padding: 10px 20px;
+}
+
+li{
+  list-style: none;
+  float: left;
+}
+
+li a{
+  padding-right:15px;
+  color: #222222;
+  text-decoration: none;
+  color:black;
+}
+
+li a:hover{
+  color: red;
+}
+
+.mobile{
+  display: none;
+}
+
+@media screen and (min-width: 0px) and (max-width: 600px){
+  .mobile{
+    display: block;
+    position:absolute;
+  }
+  .desktop{
+    display: none;
+  }
+  nav>ul{
+    width: 80%;
+    display: none;
+  }
+  
+  nav:hover ul{
+    display: block;
+  }
+  nav ul li{
+    width: 100%;
+    text-align: center;
+      
+  }
+  
+  .burger{
+    background: #303030;
+    color: #63a870;
+    padding: 10px;
+    border-radius: 3px;
+  }
+  
+}
