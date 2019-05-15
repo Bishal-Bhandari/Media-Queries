@@ -1,30 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Media Query</title>
+	<title>ClassWork</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 	<body>
-		<nav class="desktop">
-  			<ul>
-			    <li><a href="#">Link 1</a></li>
-			    <li><a href="#">Link 2</a></li>
-			    <li><a href="#">Link 3</a></li>
-			    <li><a href="#">Link 4</a></li>
-			    <li><a href="#">Link 5</a></li>
-  			</ul>
-		</nav>
+		<div class="top_wrapper">
+			<div class="logo">
+				<i class="fa fa-cloud" aria-hidden="true"></i>
+				<b>Digital</b>
+			</div>
+			<header>
+				<nav class="desktop">
+		  			<ul>
+					    <li><a href="#">Home</a></li>
+					    <li><a href="#">About</a></li>
+					    <li class="Dropdown">
+					    	<a href="#" class="su">Dropdown</a>
+					    	<i class="fa fa-caret-down" aria-hidden="true"></i>
+					    	<div class="submenu">
+					    		<a href="#">Submenu 1</a>
+					    		<a href="#">Submenu 1</a>
+					    		<a href="#">Submenu 1</a>
+					    	</div>
+					    </li>
+					    <li><a href="#">Team Page</a></li>
+					    <li><a href="#">Control Page</a></li>
+					    <li><button class="login"><b>Login</b></button></li>
+		  			</ul>
+				</nav>
 
-		<nav class="mobile">
-  		<i class="burger fas fa-bars"></i>
-  			<ul>
-			    <li><a href="#">Link 1</a></li>
-			    <li><a href="#">Link 2</a></li>
-			    <li><a href="#">Link 3</a></li>
-			    <li><a href="#">Link 4</a></li>
-			    <li><a href="#">Link 5</a></li>
-  			</ul>
-		</nav>
+				<nav class="mobile">
+	  			<i class="burger fas fa-bars"></i>
+		  			<ul>
+					    <li><a href="#">Link 1</a></li>
+					    <li><a href="#">Link 2</a></li>
+					    <li><a href="#">Link 3</a></li>
+					    <li><a href="#">Link 4</a></li>
+					    <li><a href="#">Link 5</a></li>
+		  			</ul>
+				</nav>
+			</header>
+			<section class="intro">
+				<article>
+					<h2>Welcome To Digital Marketing Agency</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+					<a href="#" class="readme">Read More</a> <a href="#" class="watch">Watch Video</a>
+				</article>
+				<figure>
+					<img src="tron.png" alt="Img">
+				</figure>
+			</section>
+		</div>
 	</body>
 </html>
