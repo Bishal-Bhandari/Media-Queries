@@ -20,7 +20,7 @@ header{
   float: left;
   color: var(--color);
   list-style: none;
-  font-size: 25px;
+  font-size: 30px;
 }
 .desktop{
   margin-right: 80px;
@@ -106,7 +106,7 @@ main{
 .mobile{
   display: block;
   float: right;
-  margin-left: 5px;
+  margin: 18px 0px 0px 5px;
   position: absolute;
 }
 header{
@@ -152,7 +152,9 @@ header{
 .mobile{
   display: block;
   float: right;
-  margin-left: 5px;
+  margin: 18px 0px 0px 5px;
+  /*margin-left: 5px;
+  margin-top: 15px;*/
   position: absolute;
 }
 header{
