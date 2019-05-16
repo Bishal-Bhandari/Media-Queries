@@ -1,5 +1,5 @@
 body{
-      font-family: sans-serif;
+      font-family: 'Ubuntu', sans-serif;
       width: 80%;
       margin: auto;
 }
@@ -37,7 +37,7 @@ header{
 }
 .logo{
   float: left;
-  margin-left: 80px;
+  margin-left: 70px;
 }
 .logo li{
   float: left;
@@ -124,12 +124,12 @@ main{
 }
 .logo{
   float: left;
-  margin-left: 180px;
+  margin-left: 37%;
 }
 .mobile{
   display: block;
   float: right;
-  margin: 18px 0px 0px 5px;
+  margin: 18px 0px 0px 110px;
   position: absolute;
 }
 header{
@@ -172,12 +172,12 @@ header{
 }
 .logo{
   float: left;
-  margin-left: 40px;
+  margin-left: 23%;
 }
 .mobile{
   display: block;
   float: right;
-  margin: 18px 0px 0px 5px;
+  margin: 18px 0px 0px 35px;
   /*margin-left: 5px;
   margin-top: 15px;*/
   position: absolute;
