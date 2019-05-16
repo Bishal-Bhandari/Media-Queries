@@ -153,6 +153,7 @@ header{
 }
 .mobile ul li{
   list-style: none;
+  padding: 10px;
 }
 .mobile ul li a{
   text-decoration: none;
@@ -202,6 +203,7 @@ header{
 }
 .mobile ul li{
   list-style: none;
+  padding: 10px;
 }
 .mobile ul li a{
   text-decoration: none;
