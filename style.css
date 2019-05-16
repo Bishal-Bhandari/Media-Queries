@@ -12,6 +12,29 @@ header{
   background: var(--bg-color);
   width: 100%;
   }
+.dropbtn{
+  display: none;
+  position: absolute;
+  background-color: #6187c6;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+.dropbtn a{
+  float: none;
+  color: var(--color);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.btndrop:hover .dropbtn{
+  display: block;
+  color: red;
+}
+.btndrop .dropbtn a:hover{
+  color: #d2cfcfcf;
+}
 .logo{
   float: left;
   margin-left: 80px;
@@ -115,7 +138,8 @@ header{
 .mobile ul{
   display: none;
   width: 100%;
-  background: #efab51bd;
+  background: #6187c6;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .burger{
   color: var(--color);
@@ -125,7 +149,7 @@ header{
     display: block;
 }
 .mobile>ul li a:hover{
-  color: #e85539bd;
+  color: #d2cfcfcf;
 }
 .mobile ul li{
   list-style: none;
@@ -163,7 +187,8 @@ header{
 .mobile ul{
   display: none;
   width: 100%;
-  background: #efab51bd;
+  background: #6187c6;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .burger{
   color: var(--color);
@@ -173,7 +198,7 @@ header{
     display: block;
 }
 .mobile>ul li a:hover{
-  color: #e85539bd;
+  color: #d2cfcfcf;
 }
 .mobile ul li{
   list-style: none;
