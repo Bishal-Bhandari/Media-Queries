@@ -1,6 +1,88 @@
 body{
       font-family: sans-serif;
+      width: 80%;
+      margin: auto;
 }
+:root{
+  --color:white;
+  --bg-color: #0963b3bd;
+}
+header{
+  display: table;
+  background: var(--bg-color);
+  width: 100%;
+  }
+.logo{
+  float: left;
+  margin-left: 80px;
+}
+.logo li{
+  float: left;
+  color: var(--color);
+  list-style: none;
+  font-size: 25px;
+}
+nav{
+  margin-right: 80px;
+}
+nav>ul{
+  float: right;
+}
+nav>ul li{
+  float: left;
+  list-style: none;
+  color: var(--color);
+  margin-right: 30px;
+  font-size: 15px;
+  font-weight: 900;
+}
+nav>ul:last-child a{
+  text-decoration: none;
+  color: var(--bg-color);
+  background: var(--color);
+  padding: 7px 15px;
+  border-radius: 2px;
+}
+main{
+  background: var(--bg-color);
+  padding: 70px 90px;
+}
+article{
+  display: flex;
+  flex-wrap: wrap;
+}
+.intro-work h2{
+  color: var(--color);
+  font-size: 40px;
+  font-weight: 500;
+}
+.intro-work p{
+  color: var(--color);
+  padding-right: 10%;
+  margin-bottom: 10%;
+  line-height: 35px;
+}
+.intro-work a{
+  border: 2px solid white;
+  text-decoration: none;
+  color: var(--color);
+  padding: 10px;
+}
+.intro-work{
+  width: 50%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.img{
+  width: 50%;
+}
+.img img{
+  width: 100%;
+}
+@media screen and (min-width: 760px) and (max-width: 908px){
+
+}
+/*
 .top_wrapper{
   background-color: #0f81e6bd;
   margin:0% 10%;
@@ -22,7 +104,7 @@ li{
 li a{
   margin-right:25px;
   text-decoration: none;
-  color:white;
+  color: var(--color);
 }
 
 li a:hover{
@@ -47,18 +129,18 @@ li a:hover{
   float: none;
 }
 .fa-cloud{
-  color:white;
+  color: var(--color);
   float: left;
   font-size: 23px;
   margin-top: 5px;
   margin-left: 50px;
 }
 .fa-caret-down{
-  color: white;
+  color: var(--color);
   margin-left: -25px;
 }
 .logo b{
-  color:white;
+  color: var(--color);
   font-size: 25px;
   margin-left: 20px;
 }
@@ -74,7 +156,7 @@ article{
   margin-left: 85px;
   width: 50%;
   display: block;
-  color: white;
+  color: var(--color);
 }
 figure{
   padding: 10px;
@@ -95,7 +177,7 @@ img{
   border:2px solid white;
   height: 20px;
   width: 30px;
-  color: white;
+  color: var(--color);
   padding: 10px;
 }
 .watch{
@@ -103,17 +185,17 @@ img{
   border:2px solid white;
   height: 20px;
   width: 30px;
-  color: white;
+  color: var(--color);
   padding: 10px;
 }
 .login{
-    background-color: white;
+    background-color:var(--color);
     border: none;
     width: 55px;
     height: 25px;
     color: #0f81e6bd;
 }
-/*For tablet*/
+For tablet
 @media screen and (min-width: 760px) and (max-width: 900px){
   .mobile{
     display: block;
@@ -147,7 +229,7 @@ img{
     margin-left: 110px;
     width: 50%;
     display: block;
-    color: white;
+    color: var(--color);
   }
   .top_wrapper {
     background-color: #0f81e6bd;
@@ -162,11 +244,10 @@ img{
     margin-top: 12%;
 }
 }
-/*for mobile*/
-@media screen and (min-width: 0px) and (max-width: 790px){
-  mobile{
-    display: block;
-    position:absolute;
+for mobile
+@media screen and (min-width: 0px) and (max-width: 791px){
+  .mobile{
+    display: inline;
   }
   .desktop{
     display: none;
@@ -174,10 +255,14 @@ img{
   nav>ul{
     width: 100%;
     display: none;
+    margin-left: -97%;
   }
-  
+  nav>ul li a{
+    display: block;
+  }
   nav:hover ul{
     display: block;
+    width:100%;
   }
   nav>ul li{
     width: 100%;
@@ -188,14 +273,15 @@ img{
     color: black;
     padding: 10px;
     border-radius: 2px;
-    margin: auto;
+    margin: 0% 0% 0% -66%;
+    float: none;
   }
   article {
     padding: 10px;
     margin-left: 110px;
     width: 50%;
     display: block;
-    color: white;
+    color: var(--color);
   }
   figure{
         margin-left: 110px;
