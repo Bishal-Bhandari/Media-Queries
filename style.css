@@ -1,5 +1,5 @@
 body{
-      font-family: 'Ubuntu', sans-serif;
+      font-family: 'Cabin', sans-serif;
       width: 80%;
       margin: auto;
 }
@@ -38,6 +38,7 @@ header{
 .logo{
   float: left;
   margin-left: 70px;
+  margin-top: 6px;
 }
 .logo li{
   float: left;
@@ -66,7 +67,7 @@ header{
   text-decoration: none;
   color: var(--bg-color)!important;
   background: var(--color);
-  padding: 7px 15px;
+  padding: 7px 23px;
   border-radius: 2px;
 }
 main{
@@ -80,7 +81,7 @@ article{
 .intro-work h2{
   color: var(--color);
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 200;
 }
 .intro-work p{
   color: var(--color);
