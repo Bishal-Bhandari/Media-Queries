@@ -1,5 +1,5 @@
 body{
-      font-family: sans-serif;
+      font-family: 'Cabin', sans-serif;
       width: 80%;
       margin: auto;
 }
@@ -12,15 +12,39 @@ header{
   background: var(--bg-color);
   width: 100%;
   }
+.dropbtn{
+  display: none;
+  position: absolute;
+  background-color: #6187c6;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+.dropbtn a{
+  float: none;
+  color: var(--color);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.btndrop:hover .dropbtn{
+  display: block;
+  color: red;
+}
+.btndrop .dropbtn a:hover{
+  color: #d2cfcfcf;
+}
 .logo{
   float: left;
-  margin-left: 80px;
+  margin-left: 70px;
+  margin-top: 6px;
 }
 .logo li{
   float: left;
   color: var(--color);
   list-style: none;
-  font-size: 25px;
+  font-size: 30px;
 }
 .desktop{
   margin-right: 80px;
@@ -43,7 +67,7 @@ header{
   text-decoration: none;
   color: var(--bg-color)!important;
   background: var(--color);
-  padding: 7px 15px;
+  padding: 7px 23px;
   border-radius: 2px;
 }
 main{
@@ -57,13 +81,13 @@ article{
 .intro-work h2{
   color: var(--color);
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 200;
 }
 .intro-work p{
   color: var(--color);
   padding-right: 10%;
   margin-bottom: 10%;
-  line-height: 35px;
+  line-height: 30px;
 }
 .intro-work a{
   border: 2px solid white;
@@ -101,12 +125,12 @@ main{
 }
 .logo{
   float: left;
-  margin-left: 180px;
+  margin-left: 37%;
 }
 .mobile{
   display: block;
   float: right;
-  margin-left: 5px;
+  margin: 18px 0px 0px 110px;
   position: absolute;
 }
 header{
@@ -115,7 +139,8 @@ header{
 .mobile ul{
   display: none;
   width: 100%;
-  background: #efab51bd;
+  background: #6187c6;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .burger{
   color: var(--color);
@@ -125,10 +150,11 @@ header{
     display: block;
 }
 .mobile>ul li a:hover{
-  color: #e85539bd;
+  color: #d2cfcfcf;
 }
 .mobile ul li{
   list-style: none;
+  padding: 10px;
 }
 .mobile ul li a{
   text-decoration: none;
@@ -147,12 +173,14 @@ header{
 }
 .logo{
   float: left;
-  margin-left: 40px;
+  margin-left: 23%;
 }
 .mobile{
   display: block;
   float: right;
-  margin-left: 5px;
+  margin: 18px 0px 0px 35px;
+  /*margin-left: 5px;
+  margin-top: 15px;*/
   position: absolute;
 }
 header{
@@ -161,7 +189,8 @@ header{
 .mobile ul{
   display: none;
   width: 100%;
-  background: #efab51bd;
+  background: #6187c6;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .burger{
   color: var(--color);
@@ -171,10 +200,11 @@ header{
     display: block;
 }
 .mobile>ul li a:hover{
-  color: #e85539bd;
+  color: #d2cfcfcf;
 }
 .mobile ul li{
   list-style: none;
+  padding: 10px;
 }
 .mobile ul li a{
   text-decoration: none;
